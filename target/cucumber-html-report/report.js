@@ -39,7 +39,7 @@ formatter.match({
   "location": "StepDefinitions.I_have_cukes_in_my_belly(int)"
 });
 formatter.result({
-  "duration": 66580800,
+  "duration": 68628500,
   "status": "passed"
 });
 formatter.match({
@@ -52,14 +52,14 @@ formatter.match({
   "location": "StepDefinitions.i_wait_hour(int)"
 });
 formatter.result({
-  "duration": 62000,
+  "duration": 63600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.my_belly_should_growl()"
 });
 formatter.result({
-  "duration": 17600,
+  "duration": 18000,
   "status": "passed"
 });
 formatter.uri("user.feature");
@@ -107,7 +107,7 @@ formatter.match({
   "location": "UserSteps.certificationName(String,String)"
 });
 formatter.result({
-  "duration": 1577900,
+  "duration": 1007900,
   "status": "passed"
 });
 formatter.match({
@@ -124,7 +124,7 @@ formatter.match({
   "location": "UserSteps.gotMarks(String,int)"
 });
 formatter.result({
-  "duration": 114900,
+  "duration": 135600,
   "status": "passed"
 });
 formatter.match({
@@ -141,7 +141,7 @@ formatter.match({
   "location": "UserSteps.certifiedYes(String,String)"
 });
 formatter.result({
-  "duration": 2143800,
+  "duration": 2568800,
   "status": "passed"
 });
 });
