@@ -17,7 +17,7 @@ public class RunCucumberTest{
     @AfterClass
     public static void writeExtentReport()
     {
-        Reporter.loadXMLConfig(new File("config/report1.xml"));
+        Reporter.loadXMLConfig(new File("config/report.xml"));
 
     }
 
