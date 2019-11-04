@@ -1,4 +1,5 @@
 package CucumberDemo;
+import com.cucumber.listener.ExtentCucumberFormatter;
 import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -19,6 +20,8 @@ public class RunUserTest {
         @AfterClass
         public static void writeExtentReport()
         {
+            // solved the pie chart issue in the reporting via the following url
+            //https://stackoverflow.com/questions/35783964/jenkins-html-publisher-plugin-no-css-is-displayed-when-report-is-viewed-in-j/35785788#35785788
                Reporter.loadXMLConfig(new File("config/report.xml"));
         }
 
